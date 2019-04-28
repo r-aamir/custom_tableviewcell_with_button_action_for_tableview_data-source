@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2525CE3622765C5E00F51EA9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2525CE3422765C5E00F51EA9 /* DetailViewController.swift */; };
+		2525CE3722765C5E00F51EA9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2525CE3522765C5E00F51EA9 /* DetailViewController.xib */; };
 		255FE2692252013600491F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FE2682252013600491F97 /* AppDelegate.swift */; };
 		255FE26B2252013600491F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255FE26A2252013600491F97 /* ViewController.swift */; };
 		255FE26E2252013600491F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255FE26C2252013600491F97 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2525CE3422765C5E00F51EA9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2525CE3522765C5E00F51EA9 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		255FE2652252013600491F97 /* custom_tableviewcell_with_button_action_for_tableview_data-source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "custom_tableviewcell_with_button_action_for_tableview_data-source.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		255FE2682252013600491F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		255FE26A2252013600491F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				255FE26F2252013700491F97 /* Assets.xcassets */,
 				255FE2712252013700491F97 /* LaunchScreen.storyboard */,
 				255FE2742252013700491F97 /* Info.plist */,
+				2525CE3422765C5E00F51EA9 /* DetailViewController.swift */,
+				2525CE3522765C5E00F51EA9 /* DetailViewController.xib */,
 			);
 			path = "custom_tableviewcell_with_button_action_for_tableview_data-source";
 			sourceTree = "<group>";
@@ -130,6 +136,7 @@
 			files = (
 				255FE2732252013700491F97 /* LaunchScreen.storyboard in Resources */,
 				255FE2702252013700491F97 /* Assets.xcassets in Resources */,
+				2525CE3722765C5E00F51EA9 /* DetailViewController.xib in Resources */,
 				258238DB227651C600153D78 /* CustomCell.xib in Resources */,
 				255FE26E2252013600491F97 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				255FE26B2252013600491F97 /* ViewController.swift in Sources */,
 				258238DC227651C600153D78 /* CustomCell.swift in Sources */,
 				255FE2692252013600491F97 /* AppDelegate.swift in Sources */,
+				2525CE3622765C5E00F51EA9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

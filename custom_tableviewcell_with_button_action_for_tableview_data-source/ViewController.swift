@@ -66,7 +66,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let item = self.states[indexPath.row]
-        print(item)
+        let viewController = DetailViewController()
+        self.navigationController?.pushViewController(viewController, animated: true)
+        viewController.item = self.states[indexPath.row]
     }
 }

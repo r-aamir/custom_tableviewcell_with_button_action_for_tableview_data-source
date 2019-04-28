@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="custom_tableviewcell_with_button_action_for_tableview_data_source" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="9vP-3Q-zAd" id="U0v-Iz-g8L"/>
+                <outlet property="detailLabel" destination="CZ8-o0-T5O" id="sZi-1x-jM4"/>
+                <outlet property="titleLabel" destination="5JV-y4-wLg" id="6Gv-7U-rVz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5JV-y4-wLg">
+                    <rect key="frame" x="16" y="60" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZ8-o0-T5O">
+                    <rect key="frame" x="16" y="89" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vP-3Q-zAd">
+                    <rect key="frame" x="172" y="118" width="70" height="30"/>
+                    <state key="normal" title="Open URL"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5JV-y4-wLg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="7rn-6t-fWD"/>
+                <constraint firstItem="5JV-y4-wLg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="bnX-gn-eWR"/>
+                <constraint firstItem="CZ8-o0-T5O" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="fjw-XE-RUT"/>
+                <constraint firstItem="9vP-3Q-zAd" firstAttribute="top" secondItem="CZ8-o0-T5O" secondAttribute="bottom" constant="8" id="muy-bI-pKa"/>
+                <constraint firstItem="9vP-3Q-zAd" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="px9-T8-n3k"/>
+                <constraint firstItem="CZ8-o0-T5O" firstAttribute="top" secondItem="5JV-y4-wLg" secondAttribute="bottom" constant="8" id="ujf-TI-sZq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>
